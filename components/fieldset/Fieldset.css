@@ -1,0 +1,34 @@
+.ui-fieldset, .ui-fieldset .ui-fieldset-legend {
+    padding: 0.6em 1em;
+}
+
+.ui-fieldset-toggleable .ui-fieldset-legend {
+    padding: 0.5em 1em 0.5em 0.5em;
+    cursor:pointer;
+    white-space: nowrap;
+}
+
+.ui-fieldset .ui-fieldset-toggler {
+    margin-right: .1em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ui-fieldset .ui-fieldset-content-wrapper-overflown {
+    overflow: hidden;
+}
+
+.ui-fieldset-content-wrapper-collapsed {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.ui-fieldset-content-wrapper-expanded {
+    max-height: 1000px;
+    transition: max-height 1s ease-in-out;
+}
+
+.ui-fieldset-content-wrapper-expanding {
+    overflow: hidden;
+}
